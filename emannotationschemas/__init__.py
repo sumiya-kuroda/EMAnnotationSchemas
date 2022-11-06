@@ -28,7 +28,7 @@ from emannotationschemas.schemas.contact import Contact
 from emannotationschemas.schemas.extended_classical_cell_type import (
     ExtendedClassicalCellType,
 )
-from emannotationschemas.schemas.nucleus_detection import NucleusDetection
+from emannotationschemas.schemas.nucleus_detection import NucleusDetection, NucleusDetectionWithManualDetection
 from emannotationschemas.schemas.derived_spatial_point import (
     DerivedSpatialPoint,
     DerivedTag,
@@ -87,6 +87,7 @@ type_mapping = {
     "fly_cell_type": FlyCellType,
     "fly_cell_type_ext": FlyCellTypeExt,
     "braincircuits_annotation_user": BrainCircuitsBoundTagAnnotationUser,
+    "nucleus_reference_with_additional_points": NucleusDetectionWithManualDetection,
 }
 
 
